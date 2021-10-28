@@ -75,19 +75,20 @@
     cursor: text;
     font-family: Inter, sans-serif;
     font-size: 16px;
-    margin: 0 0 0.5em;
+    margin: 0 0 1rem 0;
     padding: 0.4em;
-    width: 300px;
+    width: 100%;
   }
 
   .form-container {
     box-shadow: rgba(0, 0, 0, 0.05) 0 2px 2px;
-    width: 300px;
+    width: 450px;
     max-width: 90vw;
     background-color: white;
     margin: 3rem auto;
     padding: 3rem;
     border-radius: 0.5rem;
+	box-sizing: border-box;
   }
 
   button {
@@ -109,12 +110,5 @@
   h2 {
     font-size: 1.2rem;
     font-weight: 600;
-  }
-
-  @media screen and (max-width: 740px) {
-    input.svelte-dj5ppo,
-    button.svelte-dj5ppo {
-      width: 100%;
-    }
   }
 </style>
